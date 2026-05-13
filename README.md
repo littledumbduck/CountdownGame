@@ -50,7 +50,7 @@ The core logic of the game:
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/countdown-game.git](https://github.com/your-username/countdown-game.git)
+    git clone [https://github.com/LittleDumbDuck/countdown-game.git](https://github.com/LittleDumbDuck/countdown-game.git)
     ```
 2.  Open `index.html` in any modern web browser.
 3.  Start counting!
