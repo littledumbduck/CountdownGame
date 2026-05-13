@@ -1,9 +1,7 @@
 # Countdown Game 🎮
-
-A precision-based web game where players must test their internal clock. The timer starts at 15 seconds and disappears halfway through, forcing you to guess exactly when it hits zero.
+![HTML5 Logo](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![CSS3 Logo](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![JavaScript Logo](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
 ```
-text
 countdown-game/
 ├── index.html
 ├── css/
@@ -22,22 +20,19 @@ countdown-game/
 ---
 
 ## 🛠️ Technologies Used
-![HTML5 Logo](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ### HTML5
 Used to structure the game elements, including the display container, the dynamic countdown text, and the interaction buttons.
 
-
-![CSS3 Logo](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-### CSS3
 Used for the visual design, featuring a modern linear gradient background, responsive flexbox layouts, and custom animations like the `pulse` effect when the game ends.
 
-![JavaScript Logo](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+### CSS3
+A precision-based web game where players must test their internal clock. The timer starts at 15 seconds and disappears halfway through, forcing you to guess exactly when it hits zero.
+
 ### JavaScript (Vanilla)
 The core logic of the game:
 * **Interval Management:** Uses `setInterval` to track time every 100ms.
 * **State Control:** Handles the transition between the visible and hidden states of the timer.
 * **DOM Manipulation:** Dynamically updates the UI with results and handles event listeners for the "Press" and "Restart" actions.
-
 
 ---
 
